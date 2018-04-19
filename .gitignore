@@ -14,10 +14,8 @@
 *.star
 *.sig
 
-
 # All temp directories
 /tmp*/
-
 
 # Build directory
 /build/
