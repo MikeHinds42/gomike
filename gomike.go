@@ -1,4 +1,4 @@
-package gomike
+package main
 
 import (
 	"fmt"
