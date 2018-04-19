@@ -1,0 +1,23 @@
+# Artefacts
+*.rpm
+*.iso
+*.tar
+*.tar.gz
+*.tgz
+*.img
+*.ova
+*.qcow2
+*.vhd
+*.vhdx
+*.vmdk
+*.zip
+*.star
+*.sig
+
+
+# All temp directories
+/tmp*/
+
+
+# Build directory
+/build/
