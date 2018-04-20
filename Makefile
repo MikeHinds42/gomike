@@ -2,13 +2,17 @@
 
 
 
-all: main
+all: gomike
 
-main:
-	go build -o ./build/$@ $@.go
+gomike:
+	go build
 
 test1:
-	go build -o ./build/$@ web/tests/$@.go
+	go build
+
+
+get:
+	go get github.com/gorilla/sessions
 
 
 .PHONE: gofmt2
@@ -19,3 +23,5 @@ gofmt2: FORCE
 FORCE: ;
 
 
+clean:
+	rm -f gomike
